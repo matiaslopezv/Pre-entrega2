@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+header {
+    overflow: hidden; 
+    background-color: #333; 
+    color: white; 
+    padding: 10px; 
+  }
+  
+  /* logo */
+  .logo_nav {
+    display: inline-block; 
+    vertical-align: middle; 
+    width: 250px; 
+    height: auto; 
+    margin-right: 10px; 
+  }
+  
+  /* título h1 */
+  header h1 {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle; 
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+  }
+  
+  /* barra de navegación */
+  .navbar {
+    list-style: none; 
+    display: inline-block; 
+    margin: 0; 
+    padding: 0; 
+    vertical-align: middle; 
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 10px; 
+  }
+  
+  .navbar li a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold; 
+  }
+  
+  .navbar li a:hover {
+    color: #ff9900; /* Cambia el color al pasar el mouse */
+  }
+  
+/*HEADER*/
+
+
+/* MAIN */
+main{
+  height:1000px
+  }
+
+.img_principal{
+  max-width:95%;
+  padding:10px 20px;
+  border-radius: 30px;
+}
+
+.texto_entrada{
+  font-style: italic;
+  font-weight: bold;
+  border:solid 3px;
+  width:350px;
+  height: 300px;
+  text-align: center;
+  font-size: 1em;
+  padding: 18px;
+  margin-left: 20px;
+  position: absolute;
+  top:30px;  
+}
+
+.div_main{
+  position: relative;
+}
+
+.logo_grand_tour img{/* 3 LOGOS GRANDES VUELTAS*/
+  width:150px
+}
+
+.logo_tdf{
+  position: absolute;
+  top:145px;
+  right:190px;
+}
+
+.logo_gdi{
+  position: absolute;
+  top:30px;
+  right:200px;
+}
+
+.logo_vae{
+  position: absolute;
+  top:320px;
+  right:185px;
+}
+/* MAIN */
+
+
+/* FOOTER */
+footer{
+  margin-top: 300px;
+  border-top: solid;
+  background-color: #333;
+  color: white;
+  z-index: 1;
+  /* position: relative; */
+}
+
+.address_uci{
+  /* position:absolute;*/
+  right: 620px;
+  top:10px;
+}
+
+.redes_sociales{/*DIV DE LOS ICONOS DE RRSS*/
+width: 100px;
+/* position: absolute;  */
+right:395px;
+}
+.img_footer{
+  width: 50px;
+}
+
+.partners{/*DIV DE LOS SPONSORS*/
+border-left:solid;
+/* position: absolute; */
+left: 460px;
+}
+
+.partners img{/*ESTILOS DE LAS IMAGENES DE LOS SPONSORS*/
+  width: 100px;
+}
+/* FOOTER */
+
+
+/* ESTILOS EQUIPOS.HTML */
+.jersey img{
+    width: 250px;
+}
+
+/* ESTILOS EQUIPOS.HTML */
+
+/*ESTILOS GANADORES2023  */
+.ganador_gdi{
+  max-width: 70%;;
+}
+/*ESTILOS GANADORES2023  */
+
+/* ESTILOS GALERIA */
+.main_galeria{
+  width: 200px;
+  height: 200px;
+}
